@@ -22,17 +22,17 @@ suppressPackageStartupMessages(library(datateachr))
 
 ## Excerise 1 and 2 (Function and Documention)
 
-In this exercise, I am going to create a function that create a
-character vector of column names of the given data frame which can be
-identified as logical in nature. A logical variable usually consists
-TRUE/FALSE or YES/NO or 1/0 as entries for individual columns. However,
-in a loaded data frame, logical variables are often read as character
-variables, which needs to be examined by individual columns which could
-be cumbersome. In that case, this function could help identify the
-column names which can potentially be logical (by assuming two factor
-levels only). For a data frame with several columns, this function, when
-applied, can provide quicker judgement in checking/transferring
-character columns to logical columns.
+In this exercise, I am going to create a function `poten_logi_param`
+that create a character vector of column names of the given data frame
+which can be identified as logical in nature. A logical variable usually
+consists TRUE/FALSE or YES/NO or 1/0 as entries for individual columns.
+However, in a loaded data frame, logical variables are often read as
+character variables, which needs to be examined by individual columns
+which could be cumbersome. In that case, this function could help
+identify the column names which can potentially be logical (by assuming
+two factor levels only). For a data frame with several columns, this
+function, when applied, can provide quicker judgement in
+checking/transferring character columns to logical columns.
 
 ``` r
 #' Creates character vector of columns which are logical datatype
