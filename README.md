@@ -9,7 +9,7 @@ Assignment details and instructions can be found [here](https://stat545.stat.ubc
 Is Assignment B1, a function has been developed named, `poten_logi_param`. This function could be useful to extract the column names which might have a logical entry, but read as character in R. A logical entry can have only two factor levels. This is the central idea of developing this function. However, the function `poten_logi_param` can also be used when user wants to list out the column names based on user defined factor levels, offering flexibility and usage of function in additional context. Examples and Test results have been included in the `assignment-B1.Rmd` and `assignment-B1.md` files.
 
 ## Assignment-B2
-Will be updated soon.
+Assignment B2 is included in a separate folder `assignmentB2`. This assignment is about a package developement. Here, I used the similar r-function `poten_logi_param` and used it in the package `rPackageMC1`. The binary file has also been provided in the repository if the installation using `devtools` does not work.
 
 ## Contact:
 Please contact Mrinmoy Chakraborty (mrinmoy.chakraborty@ubc.ca) for further details. 
