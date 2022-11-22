@@ -1,0 +1,23 @@
+Package: rPackageMC1
+Title: Create a list of potential logical variables
+Version: 0.1.0
+Authors@R: 
+    person("Mrinmoy", "Chakraborty", , "mrinmoy.chakraborty@ubc.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4947-9265"))
+Description: This package utilizes a function to identify the logical
+    variables. By default, logical variable has two factors, and this
+    package helps identify the variables in a dataframe which can be
+    potentially a logical variable.
+License: MIT + file LICENSE
+Imports: 
+    dplyr,
+    magrittr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
