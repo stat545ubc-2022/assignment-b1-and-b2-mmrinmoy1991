@@ -13,7 +13,7 @@ You can install the development version of rPackageMC1 like so:
 
 ``` r
 install.packages("devtools")
-devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-mmrinmoy1991/rPackageMC1")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-mmrinmoy1991/assignmentB2/rPackageMC1")
 ```
 
 ## Data
